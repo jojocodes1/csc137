@@ -1,0 +1,30 @@
+import java.util.Scanner;
+
+public class Csc; {
+    public static void main(String[] args){
+
+Scanner scan = new Scanner(System.in);
+
+System.out.println("Enter your choice");
+String choice = scan.next();
+
+if(choice == 1){
+    System.out.println("Welcome to IT DEPARTMENT");
+
+}
+else if(choice == 2){
+    System.out.print("Welcome to ACC DEPTPARTMENT");
+}
+else(choice == 3){
+    System.out.println("Welcome to HR DEPTPARTMENT")
+}
+
+
+
+
+
+
+
+
+    }
+}
