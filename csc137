@@ -3,7 +3,7 @@ import java.util.Scanner;
 public class App {
 
 	public static void main(String[] args) {
-		
+		// Create a Scanner to ask user for information
 		Scanner scan = new Scanner(System.in);
 		
 		
@@ -11,7 +11,7 @@ public class App {
 		
 		
 		int choice = scan.nextInt();
-		
+		// Let the user choose between three numbers that represents different companies
 		if(choice == 1){
 			
 			System.out.println("WELCOME TO IT DEPARTMENT");
@@ -30,7 +30,7 @@ public class App {
 
 		}
 		
-		
+		//Let the user enter company credentials 
 		System.out.println("Enter employee id: ");
 		
 		String id = scan.next(); 
