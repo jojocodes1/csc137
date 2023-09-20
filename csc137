@@ -1,26 +1,67 @@
+package csc;
 import java.util.Scanner;
 
-public class Csc; {
-    public static void main(String[] args){
+public class Company {
 
-Scanner scan = new Scanner(System.in);
+	public static void main(String[] args) {
+		
+		Scanner scan = new Scanner(System.in);
+		
+		
+		System.out.println("Enter your choice");
+		
+		
+		int choice = scan.nextInt();
+		
+		if(choice == 1){
+			
+			System.out.println("WELCOME TO IT DEPARTMENT");
+			
+		}
+		else if (choice == 2) {
+			
+			System.out.println("WELCOME TO ACC DEPT");
 
-System.out.println("Enter your choice");
-String choice = scan.next();
+		}
+		
+		else if(choice == 3) {
+			
+			System.out.println("WELCOME TO HR DEPT");
+			
 
-if(choice == 1){
-    System.out.println("Welcome to IT DEPARTMENT");
+		}
+		
+		
+		System.out.println("Enter employee id: ");
+		
+		String id = scan.next(); 
+		
+		System.out.println("Enter employee name");
+		
+		String name = scan.next();
+		
+		
+		
+		
+
+		
+		
+		
+		
+		
+		
+				
+				
+		
+		
+		
+		
+		
+		
+		
+	}
 
 }
-else if(choice == 2){
-    System.out.print("Welcome to ACC DEPTPARTMENT");
-}
-else(choice == 3){
-    System.out.println("Welcome to HR DEPTPARTMENT")
-}
-
-
-
 
 
 
