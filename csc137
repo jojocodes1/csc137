@@ -1,7 +1,6 @@
-package csc;
 import java.util.Scanner;
 
-public class Company {
+public class App {
 
 	public static void main(String[] args) {
 		
@@ -38,34 +37,9 @@ public class Company {
 		
 		System.out.println("Enter employee name");
 		
-		String name = scan.next();
-		
-		
-		
-		
-
-		
-		
-		
-		
-		
-		
-				
-				
-		
-		
-		
-		
-		
-		
+		String name = scan.next();	
 		
 	}
 
 }
 
-
-
-
-
-    }
-}
